@@ -487,6 +487,7 @@ func Provider() *schema.Provider {
 			"aws_appautoscaling_target":                               resourceAwsAppautoscalingTarget(),
 			"aws_appautoscaling_policy":                               resourceAwsAppautoscalingPolicy(),
 			"aws_appautoscaling_scheduled_action":                     resourceAwsAppautoscalingScheduledAction(),
+			"aws_appconfig_application":                               resourceAwsAppconfigApplication(),
 			"aws_appmesh_gateway_route":                               resourceAwsAppmeshGatewayRoute(),
 			"aws_appmesh_mesh":                                        resourceAwsAppmeshMesh(),
 			"aws_appmesh_route":                                       resourceAwsAppmeshRoute(),
