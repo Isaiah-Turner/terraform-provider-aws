@@ -20,7 +20,6 @@ const filename = `service_tags_gen.go`
 var sliceServiceNames = []string{
 	"acm",
 	"acmpca",
-	"appconfig",
 	"appmesh",
 	"athena",
 	"autoscaling",
@@ -112,6 +111,7 @@ var mapServiceNames = []string{
 	"amplify",
 	"apigateway",
 	"apigatewayv2",
+	"appconfig",
 	"appstream",
 	"appsync",
 	"backup",
